@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="head">
+        <h2>Student Application Management System</h2>
+        <h3>Register and manage student applications</h3>
+    </header>
+    <form action="" id="form">
+        Name:-<input type="text" required id="name"><br><br>
+        Email:-<input type="email"required id="mail"><br><br>
+        Phone No. :- <input type="text" id="no"><br><br>
+        Date of Birth <br>
+        <input type="date" id="dob"><br><br>
+
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+
+        <label for="course">Course:</label>
+        <select id="course" name="course">
+        <option value="">Select Course</option>
+        <option value="web-development">Web Development</option>
+        <option value="ui-ux">UI/UX</option>
+        <option value="python">Python</option>
+        <option value="data-analytics">Data Analytics</option>
+        <option value="mern-stack">MERN Stack</option>
+        <option value="cloud-computing">Cloud Computing</option></select>
+        <br><br>
+
+        <label for="Skills">Skills</label>
+        <input type="checkbox" id="Skills" name="skills" value="skills">
+        <label for="HTML">HTML</label>
+        <input type="checkbox" id="Skills" name="skills" value="skills">
+        <label for="HTML">CSS</label>
+        <input type="checkbox" id="Skills" name="skills" value="skills">
+        <label for="HTML">JavaScript</label>
+        <input type="checkbox" id="Skills" name="skills" value="skills">
+        <label for="HTML">Git</label>
+        <input type="checkbox" id="Skills" name="skills" value="skills">
+        <label for="HTML">React</label>
+        <input type="checkbox" id="Skills" name="skills" value="skills">
+        <label for="HTML">Node.js</label>
+        
+        
+        <h3 id="abpout_student">About Student</h3>
+        minimum 200 characters <br><textarea name="about_student" id="about_student"></textarea><br>
+        Photo: <input type="file" required><br><br>
+
+        <button id="reg">Register Student</button> <button id="reset">Reset Form</button>
+
+        
+
+</form>
+
+    <div class="container">
+        <div class="card">
+            <h3>Rahul</h3>
+            <p><strong>Email:</strong> rahul@gmail.com</p>
+            <p><strong>Course:</strong> Web Development</p>
+            <p><strong>Age:</strong> 20</p>
+        </div>
+        <div class="card">
+            <h3>Aman</h3>
+            <p><strong>Email:</strong> aman@gmail.com</p>
+            <p><strong>Course:</strong> Python</p>
+            <p><strong>Age:</strong> 21</p>
+        </div>
+        <div class="card">
+            <h3>Rakesh</h3>
+            <p><strong>Email:</strong> priya@gmail.com</p>
+            <p><strong>Course:</strong> UI/UX</p>
+            <p><strong>Age:</strong> 20</p>
+        </div>
+
+        <div class="card">
+            <h3>Rohit</h3>
+            <p><strong>Email:</strong> rohit@gmail.com</p>
+            <p><strong>Course:</strong> Data Analytics</p>
+            <p><strong>Age:</strong> 22</p>
+        </div>
+        <div class="card">
+            <h3>Neha</h3>
+            <p><strong>Email:</strong> neha@gmail.com</p>
+            <p><strong>Course:</strong> MERN Stack</p>
+            <p><strong>Age:</strong> 21</p>
+        </div>
+        <div class="card">
+            <h3>Vikas</h3>
+            <p><strong>Email:</strong> vikas@gmail.com</p>
+            <p><strong>Course:</strong> Cloud Computing</p>
+            <p><strong>Age:</strong> 22</p>
+        </div>
+
+    </div>
+</body>
+</html>
